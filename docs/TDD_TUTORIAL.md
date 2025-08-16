@@ -185,4 +185,6 @@ Now go make that first test pass! I believe in you! 💜✨
 - Did you spell everything exactly as in the test?
 - Are you returning the right data type (string vs number)?
 
-**Need help?** Re-read the error message - it usually tells you exactly what's wrong!
+**Need help?** 
+- Re-read the error message - it usually tells you exactly what's wrong!
+- Confused about Jest or other tools? Check `docs/TOOLS_GLOSSARY.md` for explanations

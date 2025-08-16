@@ -14,9 +14,10 @@ alexandra-fizzbuzz-js/
 ├── 📂 docs/                     # Your learning guides
 │   ├── TDD_TUTORIAL.md          # Step-by-step TDD guide
 │   ├── VSCODE_SETUP.md          # VS Code configuration
+│   ├── PROJECT_STRUCTURE.md     # This file!
+│   ├── TOOLS_GLOSSARY.md        # What all the tools do
 │   ├── GIT_WORKFLOW.md          # Git best practices
-│   ├── DESIGN_GUIDE.md          # Creative customization ideas
-│   └── PROJECT_STRUCTURE.md     # This file!
+│   └── DESIGN_GUIDE.md          # Creative customization ideas
 ├── 📂 exercises/                # Extra challenges
 │   └── CHALLENGES.md            # Advanced exercises when you're ready
 ├── 📂 src/                      # Your source code
@@ -86,6 +87,7 @@ module.exports = {
 - **What:** Configuration for Jest testing framework
 - **Why:** Ensures tests run correctly and maintains quality standards
 - **Benefit:** You get detailed test reports and coverage metrics
+- **Learn more:** See `docs/TOOLS_GLOSSARY.md` for detailed Jest explanation
 
 **📄 babel.config.js**
 ```javascript
@@ -267,6 +269,7 @@ Don't worry about understanding everything immediately. Focus on your FizzBuzz f
 - **Web interface:** `index.html`, `style.css`, `app.js`
 - **Learning guides:** `docs/` folder
 - **Commands:** `package.json` scripts section
+- **Tool explanations:** `docs/TOOLS_GLOSSARY.md`
 
 **Don't touch (yet):**
 - `package-lock.json` (auto-generated)
