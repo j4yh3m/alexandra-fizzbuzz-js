@@ -49,6 +49,7 @@ Go to GitHub and click "New Pull Request"
 ## 📝 Pull Request Guidelines
 
 ### PR Title Format
+
 - `feat:` New features
 - `fix:` Bug fixes
 - `docs:` Documentation updates
@@ -60,23 +61,28 @@ Go to GitHub and click "New Pull Request"
 
 ```markdown
 ## Description
+
 Brief description of what this PR does
 
 ## Type of Change
+
 - [ ] Bug fix
 - [ ] New feature
 - [ ] Documentation update
 - [ ] Code refactoring
 
 ## Testing
+
 - [ ] All tests pass
 - [ ] Added new tests
 - [ ] Manually tested
 
 ## Screenshots (if applicable)
+
 Add screenshots for UI changes
 
 ## Checklist
+
 - [ ] My code follows the project style
 - [ ] I've run `npm run lint`
 - [ ] I've run `npm run format`
@@ -99,10 +105,10 @@ function calculateFizzBuzz(number) {
 
 // ❌ Avoid
 function calc(n) {
-  if(n%15==0)return"FizzBuzz"
-  if(n%3==0)return"Fizz"
-  if(n%5==0)return"Buzz"
-  return n+""
+  if (n % 15 == 0) return 'FizzBuzz';
+  if (n % 3 == 0) return 'Fizz';
+  if (n % 5 == 0) return 'Buzz';
+  return n + '';
 }
 ```
 
@@ -138,12 +144,14 @@ describe('FB', () => {
 ### Review Etiquette
 
 #### As a Reviewer:
+
 - Be kind and constructive
 - Explain your suggestions
 - Acknowledge good work
 - Ask questions if unclear
 
 Example feedback:
+
 ```
 ✅ "Great work! Consider extracting this logic into a helper function for better reusability."
 
@@ -151,6 +159,7 @@ Example feedback:
 ```
 
 #### As a Contributor:
+
 - Be open to feedback
 - Ask questions if unclear
 - Explain your decisions
@@ -159,6 +168,7 @@ Example feedback:
 ## 🎨 Adding New Features
 
 ### Feature Ideas
+
 - New visual themes
 - Sound effects
 - Animation options
@@ -168,6 +178,7 @@ Example feedback:
 - API integration
 
 ### Feature Checklist
+
 - [ ] Discussed in an issue first
 - [ ] Follows existing patterns
 - [ ] Includes tests
@@ -180,23 +191,29 @@ Example feedback:
 
 ```markdown
 ## Bug Description
+
 Clear description of the bug
 
 ## Steps to Reproduce
+
 1. Go to...
 2. Click on...
 3. See error
 
 ## Expected Behavior
+
 What should happen
 
 ## Actual Behavior
+
 What actually happens
 
 ## Screenshots
+
 If applicable
 
 ## Environment
+
 - Browser:
 - OS:
 - Node version:
@@ -205,12 +222,14 @@ If applicable
 ## 📚 Documentation
 
 ### When to Update Docs
+
 - Adding new features
 - Changing existing behavior
 - Adding new commands
 - Updating setup process
 
 ### Documentation Style
+
 - Use clear, simple language
 - Include code examples
 - Add screenshots for UI changes
@@ -219,18 +238,21 @@ If applicable
 ## 🌈 Community Guidelines
 
 ### Be Inclusive
+
 - Welcome newcomers
 - Use inclusive language
 - Respect different skill levels
 - Celebrate diversity
 
 ### Be Helpful
+
 - Answer questions kindly
 - Share knowledge
 - Provide constructive feedback
 - Acknowledge contributions
 
 ### Be Professional
+
 - Stay on topic
 - Avoid offensive content
 - Respect others' time
@@ -247,6 +269,7 @@ New to open source? Perfect! Here's how to start:
 5. Celebrate your first PR! 🎉
 
 ### Easy First Contributions
+
 - Fix typos in documentation
 - Add comments to code
 - Improve error messages
@@ -296,6 +319,7 @@ Need help? Here's where to ask:
 ## 🎉 Recognition
 
 All contributors will be:
+
 - Listed in our README
 - Thanked in release notes
 - Celebrated in our community

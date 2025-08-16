@@ -9,6 +9,7 @@ This is a FizzBuzz kata repository designed to teach Test-Driven Development (TD
 ## Key Commands
 
 ### Development
+
 - `npm test` - Run all tests
 - `npm run test:watch` - Run tests in watch mode (use during TDD)
 - `npm run test:coverage` - Check test coverage
@@ -17,6 +18,7 @@ This is a FizzBuzz kata repository designed to teach Test-Driven Development (TD
 - `npm run serve` - Start local web server on port 8080
 
 ### Git Workflow
+
 - Always commit after each passing test during TDD
 - Use conventional commits: `feat:`, `fix:`, `test:`, `refactor:`, `docs:`
 - Create feature branches for new work: `feature/`, `fix/`, `docs/`

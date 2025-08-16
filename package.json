@@ -13,7 +13,12 @@
     "format:check": "prettier --check .",
     "serve": "npx http-server . -p 8080"
   },
-  "keywords": ["fizzbuzz", "kata", "tdd", "learning"],
+  "keywords": [
+    "fizzbuzz",
+    "kata",
+    "tdd",
+    "learning"
+  ],
   "author": "Alexandra",
   "license": "MIT",
   "devDependencies": {

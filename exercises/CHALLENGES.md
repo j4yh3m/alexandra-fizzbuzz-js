@@ -5,7 +5,9 @@ Ready to level up? Try these progressive challenges!
 ## 🌟 Beginner Challenges
 
 ### Challenge 1: Input Validation
+
 Add validation to ensure the input is:
+
 - A positive number
 - Not too large (max 1000)
 - Actually a number (not text)
@@ -17,6 +19,7 @@ test('throws error for negative numbers', () => {
 ```
 
 ### Challenge 2: Custom Words
+
 Make FizzBuzz configurable:
 
 ```javascript
@@ -29,6 +32,7 @@ customFizzBuzz(15, { 3: 'Pop', 5: 'Snap' }); // "PopSnap"
 ```
 
 ### Challenge 3: Reverse FizzBuzz
+
 Given output, find the input:
 
 ```javascript
@@ -39,7 +43,9 @@ reverseFizzBuzz('FizzBuzz'); // Could be 15, 30, 45...
 ## 🔥 Intermediate Challenges
 
 ### Challenge 4: FizzBuzzPlus
+
 Add more rules:
+
 - 7 = "Fazz"
 - 11 = "Bizz"
 - Combinations work as expected
@@ -50,6 +56,7 @@ fizzBuzzPlus(77); // "FazzBizz" (7 and 11)
 ```
 
 ### Challenge 5: Visual Patterns
+
 Create a function that shows patterns:
 
 ```javascript
@@ -64,6 +71,7 @@ fizzBuzzPattern(20);
 ```
 
 ### Challenge 6: Performance Testing
+
 Handle large ranges efficiently:
 
 ```javascript
@@ -74,6 +82,7 @@ const result = fizzbuzzRange(1, 1000000);
 ## 💪 Advanced Challenges
 
 ### Challenge 7: FizzBuzz Generator
+
 Create an infinite generator:
 
 ```javascript
@@ -85,6 +94,7 @@ gen.next().value; // "Fizz"
 ```
 
 ### Challenge 8: Async FizzBuzz
+
 Make it work with promises:
 
 ```javascript
@@ -96,6 +106,7 @@ await asyncFizzBuzzBatch([1, 3, 5, 15]);
 ```
 
 ### Challenge 9: FizzBuzz API
+
 Create a REST API:
 
 ```javascript
@@ -109,20 +120,26 @@ Create a REST API:
 ## 🎨 Creative Challenges
 
 ### Challenge 10: Sound FizzBuzz
+
 Add sound effects:
+
 - Different sounds for Fizz, Buzz, FizzBuzz
 - Volume control
 - Mute option
 
 ### Challenge 11: Animated FizzBuzz
+
 Create animations:
+
 - Numbers fade in
 - Fizz slides from left
 - Buzz slides from right
 - FizzBuzz explodes in
 
 ### Challenge 12: Theme Builder
+
 Create a theme builder interface:
+
 - Color picker for each type
 - Animation style selector
 - Preview mode
@@ -131,21 +148,27 @@ Create a theme builder interface:
 ## 🏆 Expert Challenges
 
 ### Challenge 13: ML FizzBuzz
+
 Train a neural network to play FizzBuzz:
+
 ```javascript
 const model = trainFizzBuzzModel();
 model.predict(15); // "FizzBuzz"
 ```
 
 ### Challenge 14: Multiplayer FizzBuzz
+
 Create a real-time game:
+
 - Players take turns
 - Timer for each turn
 - Score tracking
 - Leaderboard
 
 ### Challenge 15: FizzBuzz Compiler
+
 Create a mini programming language:
+
 ```
 FIZZBUZZ FROM 1 TO 20
 WITH RULE 3 AS "Fizz"
@@ -156,7 +179,9 @@ DISPLAY WITH STYLE "rainbow"
 ## 📝 Testing Challenges
 
 ### Challenge 16: Property Testing
+
 Use property-based testing:
+
 ```javascript
 // For all numbers n:
 // - fizzbuzz(n) always returns a string
@@ -164,13 +189,17 @@ Use property-based testing:
 ```
 
 ### Challenge 17: Mutation Testing
+
 Ensure your tests catch bugs:
+
 - Change `%` to `+`
 - Change `===` to `==`
 - Tests should fail!
 
 ### Challenge 18: Performance Benchmarks
+
 Create benchmarks:
+
 ```javascript
 benchmark('fizzbuzz', () => {
   fizzbuzz(15);
@@ -189,15 +218,18 @@ benchmark('fizzbuzz', () => {
 ## 📊 Progress Tracking
 
 Create a file `my-progress.md`:
+
 ```markdown
 # My FizzBuzz Progress
 
 ## Completed Challenges
+
 - [x] Challenge 1: Input Validation
 - [x] Challenge 2: Custom Words
 - [ ] Challenge 3: Reverse FizzBuzz
 
 ## Notes
+
 - Learned about error handling
 - Discovered array methods
 ```

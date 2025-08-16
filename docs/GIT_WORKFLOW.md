@@ -35,6 +35,7 @@ Longer explanation if needed (optional)
 ```
 
 ### Types:
+
 - `feat:` New feature
 - `fix:` Bug fix
 - `docs:` Documentation changes
@@ -44,6 +45,7 @@ Longer explanation if needed (optional)
 - `chore:` Maintenance tasks
 
 ### Examples:
+
 ```bash
 git commit -m "feat: add fizzbuzz function for number 1"
 git commit -m "test: add test for multiples of 3"
@@ -67,6 +69,7 @@ git checkout feature/add-validation
 ```
 
 ### Branch Naming:
+
 - `feature/` - New features
 - `fix/` - Bug fixes
 - `docs/` - Documentation
@@ -178,7 +181,7 @@ git reset --hard HEAD~1
 
 ### Merge conflicts?
 
-1. Don't panic! 
+1. Don't panic!
 2. Open conflicted files
 3. Look for `<<<<<<<` markers
 4. Choose which code to keep
@@ -188,6 +191,7 @@ git reset --hard HEAD~1
 ## 🎯 Best Practices
 
 ### ✅ DO:
+
 - Commit often (after each test passes)
 - Write clear commit messages
 - Pull before pushing
@@ -195,6 +199,7 @@ git reset --hard HEAD~1
 - Keep commits focused (one feature per commit)
 
 ### ❌ DON'T:
+
 - Commit broken code
 - Use generic messages like "fix" or "update"
 - Force push to shared branches

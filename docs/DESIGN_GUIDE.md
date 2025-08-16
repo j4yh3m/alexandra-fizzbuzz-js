@@ -5,6 +5,7 @@ Welcome to the creative side of FizzBuzz! This guide will help you make your pro
 ## 🌈 Current Design
 
 Our FizzBuzz app uses a modern, gradient-based design with:
+
 - **Primary Colors**: Purple gradient (#667eea to #764ba2)
 - **Fizz**: Pink (#f093fb)
 - **Buzz**: Blue (#4facfe)
@@ -15,6 +16,7 @@ Our FizzBuzz app uses a modern, gradient-based design with:
 ### 1. Color Themes
 
 #### 🌅 Sunset Theme
+
 ```css
 :root {
   --primary-color: #ff6b6b;
@@ -26,6 +28,7 @@ Our FizzBuzz app uses a modern, gradient-based design with:
 ```
 
 #### 🌊 Ocean Theme
+
 ```css
 :root {
   --primary-color: #0984e3;
@@ -37,6 +40,7 @@ Our FizzBuzz app uses a modern, gradient-based design with:
 ```
 
 #### 🌸 Pastel Theme
+
 ```css
 :root {
   --primary-color: #dfe6e9;
@@ -50,10 +54,16 @@ Our FizzBuzz app uses a modern, gradient-based design with:
 ### 2. Animation Enhancements
 
 #### Bounce Effect
+
 ```css
 @keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-20px); }
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
 }
 
 .result-item:hover {
@@ -62,11 +72,18 @@ Our FizzBuzz app uses a modern, gradient-based design with:
 ```
 
 #### Pulse Effect for FizzBuzz
+
 ```css
 @keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.1); }
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .fizzbuzz {
@@ -75,15 +92,30 @@ Our FizzBuzz app uses a modern, gradient-based design with:
 ```
 
 #### Rainbow Text
+
 ```css
 @keyframes rainbow {
-  0% { color: red; }
-  17% { color: orange; }
-  33% { color: yellow; }
-  50% { color: green; }
-  67% { color: blue; }
-  83% { color: indigo; }
-  100% { color: violet; }
+  0% {
+    color: red;
+  }
+  17% {
+    color: orange;
+  }
+  33% {
+    color: yellow;
+  }
+  50% {
+    color: green;
+  }
+  67% {
+    color: blue;
+  }
+  83% {
+    color: indigo;
+  }
+  100% {
+    color: violet;
+  }
 }
 
 .fizzbuzz {
@@ -94,6 +126,7 @@ Our FizzBuzz app uses a modern, gradient-based design with:
 ### 3. Layout Variations
 
 #### Card Layout
+
 ```css
 .result-item {
   background: white;
@@ -104,6 +137,7 @@ Our FizzBuzz app uses a modern, gradient-based design with:
 ```
 
 #### Circular Badges
+
 ```css
 .result-item {
   width: 60px;
@@ -118,6 +152,7 @@ Our FizzBuzz app uses a modern, gradient-based design with:
 ## 🎯 Creative Challenges
 
 ### Challenge 1: Theme Switcher
+
 Add buttons to switch between different color themes:
 
 ```javascript
@@ -127,6 +162,7 @@ function switchTheme(themeName) {
 ```
 
 ### Challenge 2: Sound Effects
+
 Add sounds when Fizz, Buzz, or FizzBuzz appears:
 
 ```javascript
@@ -137,6 +173,7 @@ if (value === 'Fizz') fizzSound.play();
 ```
 
 ### Challenge 3: Visual Patterns
+
 Create a visual pattern display showing where Fizz/Buzz occur:
 
 ```javascript
@@ -147,6 +184,7 @@ function createPatternGrid() {
 ```
 
 ### Challenge 4: Custom Fonts
+
 Try different font combinations:
 
 ```css
@@ -163,36 +201,40 @@ Try different font combinations:
 ## 🎨 Advanced Customizations
 
 ### SVG Animations
+
 Create custom SVG shapes for special numbers:
 
 ```html
 <svg class="fizz-shape" viewBox="0 0 100 100">
   <circle cx="50" cy="50" r="40" fill="var(--fizz-color)">
-    <animate attributeName="r" 
-             values="40;45;40" 
-             dur="1s" 
-             repeatCount="indefinite"/>
+    <animate
+      attributeName="r"
+      values="40;45;40"
+      dur="1s"
+      repeatCount="indefinite"
+    />
   </circle>
 </svg>
 ```
 
 ### Background Patterns
+
 Add subtle background patterns:
 
 ```css
 body {
-  background-image: 
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 10px,
-      rgba(255,255,255,.1) 10px,
-      rgba(255,255,255,.1) 20px
-    );
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    rgba(255, 255, 255, 0.1) 10px,
+    rgba(255, 255, 255, 0.1) 20px
+  );
 }
 ```
 
 ### Particle Effects
+
 Add floating particles in the background:
 
 ```javascript
@@ -204,13 +246,13 @@ class Particle {
     this.speedX = Math.random() * 3 - 1.5;
     this.speedY = Math.random() * 3 - 1.5;
   }
-  
+
   update() {
     this.x += this.speedX;
     this.y += this.speedY;
     // Wrap around screen
   }
-  
+
   draw(ctx) {
     ctx.fillStyle = 'rgba(255,255,255,0.5)';
     ctx.beginPath();
@@ -223,17 +265,19 @@ class Particle {
 ## 🌟 Accessibility Considerations
 
 ### High Contrast Mode
+
 ```css
 @media (prefers-contrast: high) {
-  .fizz { 
-    background: black; 
-    color: white; 
+  .fizz {
+    background: black;
+    color: white;
     border: 3px solid white;
   }
 }
 ```
 
 ### Motion Preferences
+
 ```css
 @media (prefers-reduced-motion: reduce) {
   * {
@@ -244,6 +288,7 @@ class Particle {
 ```
 
 ### Dark Mode
+
 ```css
 @media (prefers-color-scheme: dark) {
   :root {
@@ -256,6 +301,7 @@ class Particle {
 ## 📱 Responsive Design Tips
 
 ### Mobile-First Approach
+
 ```css
 /* Mobile styles (default) */
 .container {
@@ -280,21 +326,25 @@ class Particle {
 ## 🎯 Design Resources
 
 ### Color Palette Generators
+
 - [Coolors.co](https://coolors.co/)
 - [Adobe Color](https://color.adobe.com/)
 - [Paletton](https://paletton.com/)
 
 ### CSS Animation Libraries
+
 - [Animate.css](https://animate.style/)
 - [Hover.css](https://ianlunn.github.io/Hover/)
 - [Magic Animations](https://www.minimamente.com/project/magic/)
 
 ### Icon Resources
+
 - [Font Awesome](https://fontawesome.com/)
 - [Feather Icons](https://feathericons.com/)
 - [Heroicons](https://heroicons.com/)
 
 ### Inspiration
+
 - [Dribbble](https://dribbble.com/)
 - [Behance](https://www.behance.net/)
 - [CodePen](https://codepen.io/)

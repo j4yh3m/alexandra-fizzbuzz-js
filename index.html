@@ -1,57 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FizzBuzz Generator</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="container">
-        <header>
-            <h1>✨ FizzBuzz Generator ✨</h1>
-            <p class="subtitle">Enter a number and see the magic happen!</p>
-        </header>
-        
-        <main>
-            <div class="input-section">
-                <label for="numberInput">Enter a number:</label>
-                <input 
-                    type="number" 
-                    id="numberInput" 
-                    min="1" 
-                    max="100" 
-                    placeholder="Try 15!"
-                    value="15"
-                >
-                <button id="generateBtn" class="generate-btn">
-                    Generate FizzBuzz
-                </button>
-            </div>
-            
-            <div id="result" class="result-section">
-                <!-- Results will appear here -->
-            </div>
-            
-            <div class="info-section">
-                <h2>How it works:</h2>
-                <ul>
-                    <li>Numbers divisible by 3 become <span class="fizz">Fizz</span></li>
-                    <li>Numbers divisible by 5 become <span class="buzz">Buzz</span></li>
-                    <li>Numbers divisible by both become <span class="fizzbuzz">FizzBuzz</span></li>
-                    <li>All other numbers stay the same</li>
-                </ul>
-            </div>
-        </main>
-        
-        <footer>
-            <p>Made with 💜 by Alexandra | Learning TDD & Professional Development</p>
-        </footer>
+      <header>
+        <h1>✨ FizzBuzz Generator ✨</h1>
+        <p class="subtitle">Enter a number and see the magic happen!</p>
+      </header>
+
+      <main>
+        <div class="input-section">
+          <label for="numberInput">Enter a number:</label>
+          <input
+            type="number"
+            id="numberInput"
+            min="1"
+            max="100"
+            placeholder="Try 15!"
+            value="15"
+          />
+          <button id="generateBtn" class="generate-btn">
+            Generate FizzBuzz
+          </button>
+        </div>
+
+        <div id="result" class="result-section">
+          <!-- Results will appear here -->
+        </div>
+
+        <div class="info-section">
+          <h2>How it works:</h2>
+          <ul>
+            <li>
+              Numbers divisible by 3 become <span class="fizz">Fizz</span>
+            </li>
+            <li>
+              Numbers divisible by 5 become <span class="buzz">Buzz</span>
+            </li>
+            <li>
+              Numbers divisible by both become
+              <span class="fizzbuzz">FizzBuzz</span>
+            </li>
+            <li>All other numbers stay the same</li>
+          </ul>
+        </div>
+      </main>
+
+      <footer>
+        <p>
+          Made with 💜 by Alexandra | Learning TDD & Professional Development
+        </p>
+      </footer>
     </div>
-    
+
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
