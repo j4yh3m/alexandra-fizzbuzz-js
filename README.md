@@ -41,8 +41,9 @@ Make sure you have these installed:
 ### Start Here, Alexandra!
 
 1. **First**: Read `docs/VSCODE_SETUP.md` to make coding easier
-2. **Then**: Open `docs/TDD_TUTORIAL.md` - this is your step-by-step guide
-3. **Finally**: Have fun and don't worry about making mistakes - that's how we learn!
+2. **Curious about all these files?**: Check out `docs/PROJECT_STRUCTURE.md` 
+3. **Then**: Open `docs/TDD_TUTORIAL.md` - this is your step-by-step guide
+4. **Finally**: Have fun and don't worry about making mistakes - that's how we learn!
 
 ## 🎯 Your Mission: The FizzBuzz Challenge
 
@@ -77,9 +78,10 @@ Your FizzBuzz Project/
 ├── test/             # Where your tests live
 │   └── fizzbuzz.test.js # Your first test is already here
 ├── docs/             # Your learning guides
-│   ├── TDD_TUTORIAL.md    # Step-by-step instructions
-│   ├── VSCODE_SETUP.md    # Make VS Code awesome
-│   └── GIT_WORKFLOW.md    # Save your work like a pro
+│   ├── TDD_TUTORIAL.md      # Step-by-step instructions
+│   ├── VSCODE_SETUP.md      # Make VS Code awesome
+│   ├── PROJECT_STRUCTURE.md # What all these files do
+│   └── GIT_WORKFLOW.md      # Save your work like a pro
 ├── index.html        # Your beautiful web interface
 ├── style.css         # Make it pretty (this is where you can be creative!)
 └── app.js           # Connect your code to the web page
