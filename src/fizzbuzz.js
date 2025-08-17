@@ -10,6 +10,15 @@
 
 // Write your fizzbuzz function here
 
+function fizzbuzz(nombre)
+{
+    if ((nombre % 3 == 0) && (nombre % 5 == 0)) return 'FizzBuzz';
+    if (nombre % 3 == 0)    return 'Fizz';
+    if (nombre % 5 == 0)    return 'Buzz';
+    
+    return nombre.toString();
+}
 
 // Don't forget to export your function so the tests can use it!
-// module.exports = fizzbuzz;
+module.exports = fizzbuzz;
+
