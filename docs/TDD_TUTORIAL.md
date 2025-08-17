@@ -160,8 +160,8 @@ npm test
 ```mermaid
 flowchart LR
     A[🧪 Jest Sensei] --> B[📝 Runs Your Test]
-    B --> C{🤔 Does fizzbuzz(1) return '1'?}
-    C -->|Yes! ✅| D[🎉 SUCCESS! First Victory!]
+    B --> C{"🤔 Does fizzbuzz(1)<br/>return '1'?"}
+    C -->|Yes! ✅| D[🎉 SUCCESS!<br/>First Victory!]
     C -->|No ❌| E[💪 Try Again!]
     
     style D fill:#c8e6c9
@@ -257,8 +257,8 @@ npm test
 
 ```mermaid
 flowchart TD
-    A[🧪 Jest Tests Everything] --> B[✅ fizzbuzz(1) returns '1']
-    A --> C[✅ fizzbuzz(2) returns '2']
+    A[🧪 Jest Tests Everything] --> B["✅ fizzbuzz(1) returns '1'"]
+    A --> C["✅ fizzbuzz(2) returns '2'"]
     B --> D[🎉 All Tests Passing!]
     C --> D
     
@@ -578,12 +578,12 @@ graph TD
 
 ```mermaid
 flowchart TD
-    A[😱 Error Appears!] --> B[📖 Read Error Message Carefully]
-    B --> C{🤔 What Type of Error?}
-    C -->|Syntax Error| D[🔍 Check Brackets, Commas, Quotes]
-    C -->|Reference Error| E[🔍 Check Function/Variable Names]
-    C -->|Test Failure| F[🔍 Compare Expected vs Actual]
-    D --> G[🔧 Fix and Test Again]
+    A[😱 Error Appears!] --> B[📖 Read Error Message<br/>Carefully]
+    B --> C{"🤔 What Type<br/>of Error?"}
+    C -->|Syntax Error| D[🔍 Check Brackets,<br/>Commas, Quotes]
+    C -->|Reference Error| E[🔍 Check Function/<br/>Variable Names]
+    C -->|Test Failure| F[🔍 Compare Expected<br/>vs Actual]
+    D --> G[🔧 Fix and<br/>Test Again]
     E --> G
     F --> G
     G --> H[🎉 Victory!]

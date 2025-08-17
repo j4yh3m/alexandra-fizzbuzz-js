@@ -8,16 +8,16 @@ Hi Alexandra! Think of this project like a manga where you're the protagonist le
 
 ```mermaid
 graph TD
-    A[🌟 You: Alexandra the Aspiring Developer] --> B[📚 Learn TDD]
-    B --> C[⚔️ Master Your Tools]
-    C --> D[🏗️ Build Amazing Projects]
-    D --> E[🌍 Share With the World]
+    A[🌟 You: Alexandra the<br/>Aspiring Developer] --> B[📚 Learn TDD]
+    B --> C[⚔️ Master Your<br/>Tools]
+    C --> D[🏗️ Build Amazing<br/>Projects]
+    D --> E[🌍 Share With<br/>the World]
     
-    C --> F[🧪 Jest: Your Testing Sensei]
-    C --> G[📏 ESLint: Your Code Mentor]
-    C --> H[💅 Prettier: Your Style Master]
-    C --> I[📜 Git: Your Time Scroll]
-    C --> J[🏰 GitHub: Your Guild Hall]
+    C --> F[🧪 Jest:<br/>Your Testing Sensei]
+    C --> G[📏 ESLint:<br/>Your Code Mentor]
+    C --> H[💅 Prettier:<br/>Your Style Master]
+    C --> I[📜 Git:<br/>Your Time Scroll]
+    C --> J[🏰 GitHub:<br/>Your Guild Hall]
 ```
 
 ---
@@ -38,11 +38,11 @@ graph TD
 
 ```mermaid
 flowchart LR
-    A[🧪 Jest Sensei] --> B[📝 Reads Your Tests]
-    B --> C{🤔 Does Your Code Pass?}
-    C -->|Yes ✅| D[🎉 Congratulations! Level Up!]
-    C -->|No ❌| E[💪 Train Harder! Here's What's Wrong...]
-    E --> F[🔧 Fix Your Code]
+    A[🧪 Jest<br/>Sensei] --> B[📝 Reads Your<br/>Tests]
+    B --> C{"🤔 Does Your<br/>Code Pass?"}
+    C -->|Yes ✅| D[🎉 Congratulations!<br/>Level Up!]
+    C -->|No ❌| E[💪 Train Harder!<br/>Here's What's Wrong...]
+    E --> F[🔧 Fix Your<br/>Code]
     F --> B
 ```
 
@@ -75,11 +75,11 @@ flowchart LR
 
 ```mermaid
 graph TD
-    A[📝 You Write Code] --> B[👁️ ESLint Watches]
-    B --> C{🔍 Any Problems?}
-    C -->|Found Issues ⚠️| D[🚨 Red Squiggly Lines Appear]
-    C -->|All Good ✅| E[😊 Clean Code, Well Done!]
-    D --> F[🔧 Fix the Issues]
+    A[📝 You Write<br/>Code] --> B[👁️ ESLint<br/>Watches]
+    B --> C{"🔍 Any<br/>Problems?"}
+    C -->|Found Issues ⚠️| D[🚨 Red Squiggly<br/>Lines Appear]
+    C -->|All Good ✅| E[😊 Clean Code,<br/>Well Done!]
+    D --> F[🔧 Fix the<br/>Issues]
     F --> A
 ```
 
@@ -140,8 +140,8 @@ sequenceDiagram
     
     You->>Code: Types messy code
     You->>Prettier: Saves file (Ctrl+S)
-    Prettier->>Code: ✨ TRANSFORMATION SEQUENCE ✨
-    Code->>You: Beautiful, professional code appears!
+    Prettier->>Code: ✨ TRANSFORMATION<br/>SEQUENCE ✨
+    Code->>You: Beautiful, professional<br/>code appears!
 ```
 
 ---
@@ -162,11 +162,11 @@ sequenceDiagram
 
 ```mermaid
 graph LR
-    A[✨ Modern JavaScript<br/>Arrow Functions, Const, etc.] --> B[🔮 Babel Translator]
+    A[✨ Modern JavaScript<br/>Arrow Functions, Const, etc.] --> B[🔮 Babel<br/>Translator]
     B --> C[🏛️ Old JavaScript<br/>Works Everywhere]
     
     subgraph "Your Modern Code"
-    D["const greet = (name) => `Hello ${name}!`"]
+    D["const greet = (name) =><br/>`Hello ${name}!`"]
     end
     
     subgraph "Babel's Translation"
@@ -191,12 +191,12 @@ graph LR
 
 ```mermaid
 graph TD
-    A[🧙‍♀️ You Need a Power] --> B[🏪 npm Item Shop]
-    B --> C[🔍 Search for Packages]
-    C --> D[📦 Find the Perfect Tool]
-    D --> E[⬇️ Download & Install]
-    E --> F[🎒 Add to Your Inventory<br/>(package.json)]
-    F --> G[⚔️ Use in Your Quest!]
+    A["🧙‍♀️ You Need<br/>a Power"] --> B["🏪 npm<br/>Item Shop"]
+    B --> C["🔍 Search for<br/>Packages"]
+    C --> D["📦 Find the<br/>Perfect Tool"]
+    D --> E["⬇️ Download &<br/>Install"]
+    E --> F["🎒 Add to Your Inventory<br/>(package.json)"]
+    F --> G["⚔️ Use in<br/>Your Quest!"]
 ```
 
 **npm commands (your shop interactions):**
@@ -229,11 +229,11 @@ sequenceDiagram
     participant Browser as 🌐 Browser Portal
     
     You->>Server: npm run serve
-    Server->>Server: ✨ Opens dimensional gate
-    Server->>You: Portal ready at localhost:8080!
-    You->>Browser: Opens portal coordinates
-    Browser->>Server: Requesting entry to dimension
-    Server->>Browser: Welcome! Here's the website
+    Server->>Server: ✨ Opens dimensional<br/>gate
+    Server->>You: Portal ready at<br/>localhost:8080!
+    You->>Browser: Opens portal<br/>coordinates
+    Browser->>Server: Requesting entry<br/>to dimension
+    Server->>Browser: Welcome! Here's<br/>the website
 ```
 
 ---
@@ -254,18 +254,23 @@ sequenceDiagram
 - Never lose your progress again!
 
 ```mermaid
-gitgraph
-    commit id: "🌱 Initial Setup"
-    commit id: "✅ First Test Passes"
-    commit id: "🔥 Add Fizz Logic"
-    commit id: "💫 Add Buzz Logic"
-    branch feature/web-interface
-    commit id: "🎨 Create Beautiful UI"
-    commit id: "✨ Add Animations"
-    checkout main
-    commit id: "🧪 More Tests"
-    merge feature/web-interface
-    commit id: "🚀 Ready for Release!"
+flowchart TD
+    A["🌱 Initial Setup"] --> B["✅ First Test Passes"]
+    B --> C["🔥 Add Fizz Logic"]
+    C --> D["💫 Add Buzz Logic"]
+    D --> E["🧪 More Tests"]
+    
+    D --> F["🎨 Create Beautiful UI<br/>(feature branch)"]
+    F --> G["✨ Add Animations<br/>(feature branch)"]
+    
+    E --> H["🤝 Merge Feature Branch"]
+    G --> H
+    H --> I["🚀 Ready for Release!"]
+    
+    style F fill:#e3f2fd
+    style G fill:#e3f2fd
+    style H fill:#fff3e0
+    style I fill:#c8e6c9
 ```
 
 **Git workflow (your time magic ritual):**
@@ -290,7 +295,7 @@ git push            # "Send to the dimensional archive"
 
 ```mermaid
 graph TD
-    A[🏠 Your Local Computer] -->|git push| B[🏰 GitHub Guild Hall]
+    A[🏠 Your Local<br/>Computer] -->|git push| B[🏰 GitHub<br/>Guild Hall]
     B --> C[📖 Public Quest Board<br/>Your Repositories]
     B --> D[👥 Other Adventurers<br/>Can See Your Work]
     B --> E[🤝 Collaboration Zone<br/>Pull Requests]
@@ -323,13 +328,13 @@ sequenceDiagram
     participant Tests as 🎯 Training Dummies
     participant Deploy as 🚀 Deploy Familiar
     
-    You->>GitHub: git push (new code)
-    GitHub->>Actions: Wake up, familiars!
-    Actions->>Tests: Test the new abilities!
-    Tests->>Tests: Running all tests...
-    Tests->>Actions: ✅ All tests passed!
-    Actions->>Deploy: Deploy to live website!
-    Deploy->>You: 🌍 Your site is updated!
+    You->>GitHub: git push<br/>(new code)
+    GitHub->>Actions: Wake up,<br/>familiars!
+    Actions->>Tests: Test the new<br/>abilities!
+    Tests->>Tests: Running all<br/>tests...
+    Tests->>Actions: ✅ All tests<br/>passed!
+    Actions->>Deploy: Deploy to live<br/>website!
+    Deploy->>You: 🌍 Your site is<br/>updated!
 ```
 
 ---
@@ -367,20 +372,20 @@ sequenceDiagram
 
 ```mermaid
 flowchart TD
-    A[💭 You Have an Idea] --> B[✍️ Write a Test]
-    B --> C[❌ Test Fails (Red)]
-    C --> D[⚔️ Write Code to Pass]
-    D --> E[✅ Test Passes (Green)]
-    E --> F[🎨 Make Code Beautiful (Refactor)]
-    F --> G[💎 Commit Your Progress]
-    G --> H{🤔 More Features Needed?}
+    A["💭 You Have<br/>an Idea"] --> B["✍️ Write<br/>a Test"]
+    B --> C["❌ Test Fails<br/>(Red)"]
+    C --> D["⚔️ Write Code<br/>to Pass"]
+    D --> E["✅ Test Passes<br/>(Green)"]
+    E --> F["🎨 Make Code Beautiful<br/>(Refactor)"]
+    F --> G["💎 Commit Your<br/>Progress"]
+    G --> H{"🤔 More Features<br/>Needed?"}
     H -->|Yes| B
-    H -->|No| I[🚀 Deploy to World!]
+    H -->|No| I["🚀 Deploy to<br/>World!"]
     
-    G --> J[🤖 GitHub Actions Awaken]
-    J --> K[🧪 Run All Tests]
-    K --> L[📝 Check Code Quality]
-    L --> M[🌍 Auto-Deploy if Perfect]
+    G --> J["🤖 GitHub Actions<br/>Awaken"]
+    J --> K["🧪 Run All<br/>Tests"]
+    K --> L["📝 Check Code<br/>Quality"]
+    L --> M["🌍 Auto-Deploy<br/>if Perfect"]
 ```
 
 ---
@@ -418,13 +423,13 @@ flowchart TD
 ### **Red Squiggly Lines Everywhere!** 🚨
 ```mermaid
 flowchart LR
-    A[😱 Code Looks Angry] --> B[📖 Read the Error Message]
-    B --> C[🔍 Check ESLint Suggestions]
-    C --> D[🔧 Fix One Thing at a Time]
-    D --> E[💾 Save and See if Lines Disappear]
-    E --> F{Still Red?}
+    A[😱 Code Looks<br/>Angry] --> B[📖 Read the<br/>Error Message]
+    B --> C[🔍 Check ESLint<br/>Suggestions]
+    C --> D[🔧 Fix One Thing<br/>at a Time]
+    D --> E[💾 Save and See if<br/>Lines Disappear]
+    E --> F{"Still<br/>Red?"}
     F -->|Yes| B
-    F -->|No| G[🎉 Victory Dance!]
+    F -->|No| G[🎉 Victory<br/>Dance!]
 ```
 
 **Translation guide for error messages:**

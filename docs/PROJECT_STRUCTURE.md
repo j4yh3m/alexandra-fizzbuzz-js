@@ -9,28 +9,29 @@ Hi Alexandra! Think of your project like a well-organized guild hall from your f
 **Think of it like:** The architectural plans of the Fairy Tail guild hall - every room serves the guild's mission!
 
 ```mermaid
-graph TD
-    A[🏰 Alexandra's FizzBuzz Guild Hall] --> B[🏠 Living Quarters]
-    A --> C[🎯 Training Grounds]
-    A --> D[📚 Library & Wisdom]
-    A --> E[🛡️ Protection & Automation]
-    A --> F[🎨 Art & Design Studio]
+flowchart TD
+    A["🏰 Alexandra's FizzBuzz<br/>Guild Hall"]
     
-    B --> B1[📂 src/ - Your Code]
-    B --> B2[📂 test/ - Your Challenges]
-    B --> B3[📄 app.js - Web Magic]
+    A --> B["🏠 Living<br/>Quarters"]
+    B --> B1["📂 src/<br/>Your Code"]
+    B1 --> B2["📂 test/<br/>Your Challenges"]
+    B2 --> B3["📄 app.js<br/>Web Magic"]
     
-    C --> C1[📄 package.json - Guild Registry]
-    C --> C2[⚙️ Config Files - Training Rules]
+    A --> C["🎯 Training<br/>Grounds"]
+    C --> C1["📄 package.json<br/>Guild Registry"]
+    C1 --> C2["⚙️ Config Files<br/>Training Rules"]
     
-    D --> D1[📂 docs/ - Wisdom Scrolls]
-    D --> D2[📄 README.md - Guild Welcome]
+    A --> D["📚 Library &<br/>Wisdom"]
+    D --> D1["📂 docs/<br/>Wisdom Scrolls"]
+    D1 --> D2["📄 README.md<br/>Guild Welcome"]
     
-    E --> E1[📂 .github/ - Auto-Guardians]
-    E --> E2[📄 .gitignore - Privacy Shield]
+    A --> E["🛡️ Protection &<br/>Automation"]
+    E --> E1["📂 .github/<br/>Auto-Guardians"]
+    E1 --> E2["📄 .gitignore<br/>Privacy Shield"]
     
-    F --> F1[📄 index.html - Portal Design]
-    F --> F2[📄 style.css - Beauty Magic]
+    A --> F["🎨 Art & Design<br/>Studio"]
+    F --> F1["📄 index.html<br/>Portal Design"]
+    F1 --> F2["📄 style.css<br/>Beauty Magic"]
 ```
 
 ```
