@@ -97,6 +97,7 @@ You used the same tools and practices as:
 - Handle edge cases (negative numbers, decimals)
 - Create a `fizzbuzzRange(start, end)` function
 - Add input validation and error handling
+- Practice refactoring with our [Refactoring Guide](help/refactoring-guide.md)
 
 **2. Share Your Work**
 - Deploy your app to the web (GitHub Pages)

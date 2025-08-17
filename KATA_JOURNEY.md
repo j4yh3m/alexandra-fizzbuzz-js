@@ -322,8 +322,15 @@ test('returns "FizzBuzz" when given 30', () => {
 - Is it easy to read and understand?
 - Are there any ways you could make it cleaner?
 - Do you understand why each part is necessary?
+- Are there any "code smells" you can improve?
 
 **Try this:** Explain your code to yourself out loud. If you can explain it clearly, you really understand it!
+
+**Want to learn more about refactoring?** Check out our [Complete Refactoring Guide](help/refactoring-guide.md) to understand:
+- What refactoring really means
+- How to identify code smells
+- Why you should never mix refactoring with new features
+- Safe refactoring practices
 
 ## 🎯 Test Your Understanding
 

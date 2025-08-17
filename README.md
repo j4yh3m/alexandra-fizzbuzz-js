@@ -91,6 +91,7 @@ npm run lint          # Check code quality
 
 **Supporting guides available anytime:**
 - 📋 **[help/javascript-concepts.md](help/javascript-concepts.md)** - JavaScript syntax
+- 🔵 **[help/refactoring-guide.md](help/refactoring-guide.md)** - Code refactoring and clean code
 - 🔧 **[help/troubleshooting.md](help/troubleshooting.md)** - Fix common problems  
 - 📚 **[docs/](docs/)** - Comprehensive reference materials
 

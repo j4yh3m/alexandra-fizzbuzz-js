@@ -52,9 +52,10 @@ flowchart LR
 - The test will tell you when you're done
 
 ### 🔵 Refactor Phase: "Make it beautiful!"
-- Clean up your code  
-- Make it more readable or efficient
+- Clean up your code structure without changing functionality
+- Make it more readable, maintainable, and elegant
 - The tests protect you - if you break something, you'll know immediately
+- **Learn more:** [Complete Refactoring Guide](help/refactoring-guide.md)
 
 ## 🎮 TDD Applied to FizzBuzz
 
