@@ -339,16 +339,16 @@ sequenceDiagram
     participant Web as 🌐 Web Portal
     participant GitHub as 🏰 Guild Hall
     
-    You->>Test: "I want to test fizzbuzz(1)"
-    Test->>Code: "Do you know what fizzbuzz is?"
-    Code->>Test: "❌ No, I don't exist yet!"
-    You->>Code: "function fizzbuzz() { return '1'; }"
-    Code->>Test: "✅ Yes! I return '1'!"
-    You->>Web: "Connect my function to the interface"
-    Web->>Code: "Give me fizzbuzz results for 1-15"
-    Code->>Web: "['1', '2', 'Fizz', '4', 'Buzz'...]"
-    You->>GitHub: "Save my masterpiece!"
-    GitHub->>Web: "🚀 Deploy to the world!"
+    You->>Test: I want to test fizzbuzz(1)
+    Test->>Code: Do you know what fizzbuzz is?
+    Code->>Test: ❌ No, I don't exist yet!
+    You->>Code: Create function fizzbuzz
+    Code->>Test: ✅ Yes! I return '1'!
+    You->>Web: Connect my function to the interface
+    Web->>Code: Give me fizzbuzz results for 1-15
+    Code->>Web: Returns array of results
+    You->>GitHub: Save my masterpiece!
+    GitHub->>Web: 🚀 Deploy to the world!
 ```
 
 ### Your File Relationship Map
