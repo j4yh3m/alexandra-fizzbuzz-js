@@ -103,7 +103,7 @@ Create a new file: `.vscode/settings.json` in your project:
 
 ### Step 3: See the Magic!
 
-Now when you open `test/fizzbuzz.test.js`:
+Now when you open [`test/fizzbuzz.test.js`](../test/fizzbuzz.test.js):
 - You'll see ▶️ "Run" buttons next to each test
 - Green ✅ checkmarks for passing tests
 - Red ❌ X's for failing tests
@@ -119,8 +119,8 @@ code .
 ### Step 2: Arrange Your Windows
 
 **Perfect TDD Layout:**
-1. **Left side:** `src/fizzbuzz.js` (your code)
-2. **Right side:** `test/fizzbuzz.test.js` (your tests)
+1. **Left side:** [`src/fizzbuzz.js`](../src/fizzbuzz.js) (your code)
+2. **Right side:** [`test/fizzbuzz.test.js`](../test/fizzbuzz.test.js) (your tests)
 3. **Bottom:** Terminal for running commands
 
 **How to split windows:**
@@ -195,10 +195,10 @@ code .
 - [ ] Split editor with code on left, tests on right
 
 **Test your setup:**
-1. Open `test/fizzbuzz.test.js`
+1. Open [`test/fizzbuzz.test.js`](../test/fizzbuzz.test.js)
 2. You should see a ▶️ "Run" button next to the test
 3. Click it - you should see the test run!
-4. Open `src/fizzbuzz.js`
+4. Open [`src/fizzbuzz.js`](../src/fizzbuzz.js)
 5. Start coding!
 
 ## 🚨 Troubleshooting
@@ -226,7 +226,7 @@ Now you have a professional development environment! With this setup:
 - **Errors are caught immediately** with red squiggles
 - **Everything looks beautiful** with your chosen theme
 
-Ready to start your TDD journey? Open `docs/TDD_TUTORIAL.md` and let's build some amazing code! 💜✨
+Ready to start your TDD journey? Open [`docs/TDD_TUTORIAL.md`](TDD_TUTORIAL.md) and let's build some amazing code! 💜✨
 
 ---
 

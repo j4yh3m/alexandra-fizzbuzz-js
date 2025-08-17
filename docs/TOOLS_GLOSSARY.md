@@ -478,7 +478,7 @@ npm install           # "Get all my magical tools"
 
 ## 🎯 Alexandra's Next Adventure Steps
 
-1. **🚀 Start Your Journey:** Open `docs/TDD_TUTORIAL.md` and begin your training arc
+1. **🚀 Start Your Journey:** Open [`docs/TDD_TUTORIAL.md`](TDD_TUTORIAL.md) and begin your training arc
 2. **💪 Level Up Daily:** Each passing test makes you stronger
 3. **🎨 Express Yourself:** Customize the colors and design to match your style
 4. **🤝 Join the Community:** Share your creations and learn from other developers

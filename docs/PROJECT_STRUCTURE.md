@@ -41,21 +41,21 @@ alexandra-fizzbuzz-js/
 │   │   └── tests.yml            # Auto-run tests on every push
 │   └── pull_request_template.md # Template for code reviews
 ├── 📂 docs/                     # Your learning guides
-│   ├── TDD_TUTORIAL.md          # Step-by-step TDD guide
-│   ├── VSCODE_SETUP.md          # VS Code configuration
-│   ├── PROJECT_STRUCTURE.md     # This file!
-│   ├── TOOLS_GLOSSARY.md        # What all the tools do
-│   ├── GIT_WORKFLOW.md          # Git best practices
-│   └── DESIGN_GUIDE.md          # Creative customization ideas
+│   ├── [TDD_TUTORIAL.md](TDD_TUTORIAL.md)          # Step-by-step TDD guide
+│   ├── [VSCODE_SETUP.md](VSCODE_SETUP.md)          # VS Code configuration
+│   ├── [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md)     # This file!
+│   ├── [TOOLS_GLOSSARY.md](TOOLS_GLOSSARY.md)        # What all the tools do
+│   ├── [GIT_WORKFLOW.md](GIT_WORKFLOW.md)          # Git best practices
+│   └── [DESIGN_GUIDE.md](DESIGN_GUIDE.md)          # Creative customization ideas
 ├── 📂 exercises/                # Extra challenges
-│   └── CHALLENGES.md            # Advanced exercises when you're ready
+│   └── [CHALLENGES.md](../exercises/CHALLENGES.md)            # Advanced exercises when you're ready
 ├── 📂 src/                      # Your source code
-│   └── fizzbuzz.js              # Your main FizzBuzz function
+│   └── [fizzbuzz.js](../src/fizzbuzz.js)              # Your main FizzBuzz function
 ├── 📂 test/                     # Your test files
-│   └── fizzbuzz.test.js         # Tests for your FizzBuzz function
-├── 📄 index.html                # Your beautiful web interface
-├── 📄 style.css                 # Styling for your web page
-├── 📄 app.js                    # JavaScript that connects web to logic
+│   └── [fizzbuzz.test.js](../test/fizzbuzz.test.js)         # Tests for your FizzBuzz function
+├── 📄 [index.html](../index.html)                # Your beautiful web interface
+├── 📄 [style.css](../style.css)                 # Styling for your web page
+├── 📄 [app.js](../app.js)                    # JavaScript that connects web to logic
 ├── 📄 package.json              # Project info and dependencies
 ├── 📄 package-lock.json         # Exact versions of dependencies
 ├── 📄 .gitignore                # Files Git should ignore
@@ -73,27 +73,27 @@ alexandra-fizzbuzz-js/
 
 ### Your Code Files
 
-**📄 src/fizzbuzz.js**
+**📄 [src/fizzbuzz.js](../src/fizzbuzz.js)**
 - **What:** Your main FizzBuzz function
 - **Why:** Separating source code from tests is a professional practice
 - **You'll:** Write your fizzbuzz logic here using TDD
 
-**📄 test/fizzbuzz.test.js**
+**📄 [test/fizzbuzz.test.js](../test/fizzbuzz.test.js)**
 - **What:** Tests that verify your code works
 - **Why:** Tests catch bugs and guide development
 - **You'll:** Add more tests as you build features
 
-**📄 index.html**
+**📄 [index.html](../index.html)**
 - **What:** Your web page structure
 - **Why:** Makes your project visually accessible
 - **You'll:** See your FizzBuzz results in a beautiful interface
 
-**📄 style.css**
+**📄 [style.css](../style.css)**
 - **What:** Makes your web page beautiful
 - **Why:** Visual design is part of development
 - **You'll:** Customize colors, animations, and themes
 
-**📄 app.js**
+**📄 [app.js](../app.js)**
 - **What:** Connects your FizzBuzz logic to the web interface
 - **Why:** Separates business logic from UI code
 - **You'll:** Hook up your function to make the web page work
@@ -116,7 +116,7 @@ module.exports = {
 - **What:** Configuration for Jest testing framework
 - **Why:** Ensures tests run correctly and maintains quality standards
 - **Benefit:** You get detailed test reports and coverage metrics
-- **Learn more:** See `docs/TOOLS_GLOSSARY.md` for detailed Jest explanation
+- **Learn more:** See [`docs/TOOLS_GLOSSARY.md`](TOOLS_GLOSSARY.md) for detailed Jest explanation
 
 **📄 babel.config.js**
 ```javascript
@@ -293,12 +293,12 @@ Don't worry about understanding everything immediately. Focus on your FizzBuzz f
 ## 🔍 Quick Reference
 
 **Need to find something?**
-- **Your code:** `src/fizzbuzz.js`
-- **Your tests:** `test/fizzbuzz.test.js`
-- **Web interface:** `index.html`, `style.css`, `app.js`
+- **Your code:** [`src/fizzbuzz.js`](../src/fizzbuzz.js)
+- **Your tests:** [`test/fizzbuzz.test.js`](../test/fizzbuzz.test.js)
+- **Web interface:** [`index.html`](../index.html), [`style.css`](../style.css), [`app.js`](../app.js)
 - **Learning guides:** `docs/` folder
-- **Commands:** `package.json` scripts section
-- **Tool explanations:** `docs/TOOLS_GLOSSARY.md`
+- **Commands:** [`package.json`](../package.json) scripts section
+- **Tool explanations:** [`docs/TOOLS_GLOSSARY.md`](TOOLS_GLOSSARY.md)
 
 **Don't touch (yet):**
 - `package-lock.json` (auto-generated)
@@ -383,4 +383,4 @@ Your guild hall is perfectly prepared, Alexandra! Every tool is in its place, ev
 - *Every commit is a step forward*
 - *Every green test is a small victory*
 
-Ready to start coding? Head back to `docs/TDD_TUTORIAL.md` and let's build something amazing! 🚀✨
+Ready to start coding? Head back to [`docs/TDD_TUTORIAL.md`](TDD_TUTORIAL.md) and let's build something amazing! 🚀✨
