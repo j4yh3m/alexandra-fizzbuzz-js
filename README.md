@@ -95,6 +95,9 @@ npm run lint          # Check code quality
 - 🧪 **[help/testing-strategy.md](help/testing-strategy.md)** - Code coverage and testing best practices
 - 🚀 **[help/cicd-guide.md](help/cicd-guide.md)** - Understanding your automated workflows
 - 📜 **[help/git-workflows.md](help/git-workflows.md)** - Professional Git collaboration
+- ✍️ **[help/commit-message-guide.md](help/commit-message-guide.md)** - Writing professional commit messages
+- ⚡ **[help/development-productivity.md](help/development-productivity.md)** - Advanced VS Code and debugging
+- 👥 **[help/code-review-guide.md](help/code-review-guide.md)** - Professional code review practices
 - 🔧 **[help/troubleshooting.md](help/troubleshooting.md)** - Fix common problems  
 - 📚 **[docs/](docs/)** - Comprehensive reference materials
 

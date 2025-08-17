@@ -6,7 +6,7 @@
 
 **You've mastered the basics:**
 - ✅ `git add` and `git commit` 
-- ✅ Clear commit messages
+- ✅ Clear commit messages (see our [Commit Message Guide](commit-message-guide.md) for advanced techniques)
 - ✅ Saving your progress regularly
 
 **Now let's level up to professional team collaboration!**
