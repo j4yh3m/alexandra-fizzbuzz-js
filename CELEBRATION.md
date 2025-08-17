@@ -98,6 +98,7 @@ You used the same tools and practices as:
 - Create a `fizzbuzzRange(start, end)` function
 - Add input validation and error handling
 - Practice refactoring with our [Refactoring Guide](help/refactoring-guide.md)
+- Explore test coverage with our [Testing Strategy Guide](help/testing-strategy.md)
 
 **2. Share Your Work**
 - Deploy your app to the web (GitHub Pages)
@@ -113,19 +114,25 @@ You used the same tools and practices as:
 
 ### 🚀 Level Up Your Skills (This Month)
 
-**1. More JavaScript**
+**1. Professional Development Practices**
+- Master advanced Git workflows with our [Git Workflows Guide](help/git-workflows.md)
+- Understand your automation with our [CI/CD Guide](help/cicd-guide.md)
+- Dive deeper into testing with our [Testing Strategy Guide](help/testing-strategy.md)
+- Learn team collaboration through pull requests and code reviews
+
+**2. More JavaScript**
 - Build a simple calculator
 - Create a weather app using APIs
 - Make a todo list with local storage
 - Learn modern JavaScript (ES6+)
 
-**2. Expand Your Testing**
+**3. Expand Your Testing**
 - Learn about integration testing
 - Explore test coverage and quality metrics
 - Practice TDD with more complex problems
 - Study different testing patterns
 
-**3. Web Development**
+**4. Web Development**
 - Learn React or Vue.js for dynamic interfaces
 - Build APIs with Node.js and Express
 - Explore CSS animations and responsive design

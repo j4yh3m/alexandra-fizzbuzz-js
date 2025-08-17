@@ -184,6 +184,8 @@ Now `fizzbuzz(3)` returns 'Fizz', but `fizzbuzz(1)` and `fizzbuzz(2)` still work
 
 **🧪 Test it!** All three tests should pass now. Try `fizzbuzz(6)` and `fizzbuzz(9)` too - they should return 'Fizz'!
 
+**🎯 Testing insight:** You're building comprehensive test coverage! Want to learn more about testing strategy and code coverage? Check out our [Testing Strategy Guide](help/testing-strategy.md).
+
 ## 🔴 Step 5: Bring on the Buzz
 
 **Add the Buzz logic!** Add this test:
@@ -384,6 +386,8 @@ git commit -m "feat: implement complete FizzBuzz function with TDD
 - Returns 'FizzBuzz' for multiples of both 3 and 5
 - All tests passing"
 ```
+
+**🌟 Professional Git tip:** You're following professional commit message conventions! Want to learn advanced Git workflows for team collaboration? Check out our [Git Workflows Guide](help/git-workflows.md).
 
 ## 🌟 What You've Learned
 

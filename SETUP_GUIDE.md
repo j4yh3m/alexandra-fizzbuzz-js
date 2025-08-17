@@ -28,6 +28,8 @@ code .
 
 **Got that working?** Jump to [TDD Basics →](TDD_BASICS.md)
 
+**🚀 Pro tip:** Every time you push code, amazing automation runs in the background! Check out our [CI/CD Guide](help/cicd-guide.md) to understand the invisible team working for you.
+
 **Want the full professional setup?** Continue reading! 👇
 
 ## 🚀 Full Professional Setup
